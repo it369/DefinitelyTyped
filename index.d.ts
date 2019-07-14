@@ -851,7 +851,7 @@ interface GanttConfigOptions {
 	/**
 	 * sets the height of task bars in the timeline area
 	*/
-	task_height: number;
+	task_height: string | number;
 
 	/**
 	 * sets the offset (in pixels) of the nearest task from the left border in the timeline
